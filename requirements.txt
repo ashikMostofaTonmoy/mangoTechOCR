@@ -1,0 +1,2 @@
+# conda install -c conda-forge opencv -y
+# conda install -c conda-forge pytesseract -y
