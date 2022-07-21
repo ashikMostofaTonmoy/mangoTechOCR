@@ -1,2 +1,5 @@
 # conda install -c conda-forge opencv -y
 # conda install -c conda-forge pytesseract -y
+# conda install pyqt -y
+# conda install -c conda-forge pyperclip -y
+# pip install pyperclip3
