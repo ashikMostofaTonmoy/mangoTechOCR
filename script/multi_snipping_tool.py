@@ -65,7 +65,7 @@ class MyWidget(QtWidgets.QWidget):
         y1 = min(self.begin.y(), self.end.y())
         x2 = max(self.begin.x(), self.end.x())
         y2 = max(self.begin.y(), self.end.y())
-        print(x1,y1)
+        print(x1, y1)
 
         self.is_snipping = True
         self.repaint()
@@ -75,7 +75,7 @@ class MyWidget(QtWidgets.QWidget):
         self.repaint()
         QtWidgets.QApplication.processEvents()
         # img_name = 'snip{}.png'.format(self.num_snip)
-        img_name = '{}_{}.jpg'.format(x1,y1)
+        img_name = '{}_{}.jpg'.format(x1, y1)
         img.save(img_name)
         print(img_name, 'saved')
         img = cv2.cvtColor(np.array(img), cv2.COLOR_BGR2RGB)
