@@ -53,24 +53,24 @@ class Menu(QMainWindow):
             self.image = QPixmap("background.PNG")
             self.change_and_set_title(Menu.default_title)
 
-        self.resize(self.image.width(), self.image.height() + self.toolbar.height())
+        self.resize(self.image.width(), self.image.height() +
+                    self.toolbar.height())
         self.show()
 
-    
     def new_snip_window(self):
         self.total_snips += 1
         self.snippingTool.start()
 
-    def about(self):
-        self.setWindowTitle("Bangla OCR Snipping Tool")
-        print("------------------------")
-        print("Bangla OCR Snipping Tool")
-        print("------------------------")
-        print("------Developed By------")
-        print("----Jahangir Hossain----")
-        print("--------CSE,JnU---------")
-        print("---facebook.com/jhm69---")
-        webbrowser.open_new("https://facebook.com/jhm69")
+    # def about(self):
+    #     self.setWindowTitle("Bangla OCR Snipping Tool")
+    #     print("------------------------")
+    #     print("Bangla OCR Snipping Tool")
+    #     print("------------------------")
+    #     print("------Developed By------")
+    #     print("----Jahangir Hossain----")
+    #     print("--------CSE,JnU---------")
+    #     print("---facebook.com/jhm69---")
+    #     webbrowser.open_new("https://facebook.com/jhm69")
 
     def change_and_set_title(self, new_title):
         self.title = new_title
@@ -78,7 +78,8 @@ class Menu(QMainWindow):
 
     def paintEvent(self, event):
         painter = QPainter(self)
-        rect = QRect(0, self.toolbar.height(), self.image.width(), self.image.height())
+        rect = QRect(0, self.toolbar.height(),
+                     self.image.width(), self.image.height())
         painter.drawPixmap(rect, self.image)
 
     def mouseReleaseEvent(self, event):
