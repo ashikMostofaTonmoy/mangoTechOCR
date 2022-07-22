@@ -9,6 +9,8 @@ import cv2
 class MyWidget(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
+        layout = QtWidgets.QGridLayout(self)
+
         root = tk.Tk()
         screen_width = root.winfo_screenwidth()
         screen_height = root.winfo_screenheight()
@@ -27,14 +29,16 @@ class MyWidget(QtWidgets.QWidget):
         print('Press q if you want to quit...')
         self.show()
 
+    
+
     def paintEvent(self, event):
         if self.is_snipping:
-            brush_color = (0, 0, 0, 0)
+            brush_color = (0, 255, 0, 255)
             lw = 0
             opacity = 0
         else:
-            brush_color = (128, 128, 255, 128)
-            lw = 3
+            brush_color = (0, 128, 0, 128)
+            lw = 8
             opacity = 0.3
 
         self.setWindowOpacity(opacity)
@@ -52,6 +56,7 @@ class MyWidget(QtWidgets.QWidget):
     def mousePressEvent(self, event):
         self.begin = event.pos()
         self.end = self.begin
+
         self.update()
 
     def mouseMoveEvent(self, event):
@@ -66,7 +71,8 @@ class MyWidget(QtWidgets.QWidget):
         x2 = max(self.begin.x(), self.end.x())
         y2 = max(self.begin.y(), self.end.y())
         print(x1, y1)
-
+        # self.getClickedPosition(event.pos())
+        
         self.is_snipping = True
         self.repaint()
         QtWidgets.QApplication.processEvents()
@@ -80,7 +86,7 @@ class MyWidget(QtWidgets.QWidget):
         print(img_name, 'saved')
         img = cv2.cvtColor(np.array(img), cv2.COLOR_BGR2RGB)
 
-
+    
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     window = MyWidget()

@@ -5,7 +5,7 @@ from PIL import ImageDraw
 # %%
 reader = easyocr.Reader(['bn'])
 
-image_name = '../input/mouja map.png'
+image_name = '../input/1.JPG'
 
 result = reader.readtext(image_name)
 result
