@@ -24,8 +24,6 @@ class ImageViewer(QtWidgets.QGraphicsView):
         self._pixmap_item = QtWidgets.QGraphicsPixmapItem()
         scene.addItem(self._pixmap_item)
         scene.installEventFilter(self)
-        
-
 
     def load_image(self, fileName):
         pixmap = QtGui.QPixmap(fileName)
@@ -34,7 +32,6 @@ class ImageViewer(QtWidgets.QGraphicsView):
         self._pixmap_item.setPixmap(pixmap)
         return True
 
-    
     def zoomIn(self):
         self.zoom(self.factor)
 
@@ -57,8 +54,8 @@ class ImageViewer(QtWidgets.QGraphicsView):
         start = end = 0
         global x
         x = 0
-        
-        if  event.type() == QtCore.QEvent.GraphicsSceneMousePress:
+
+        if event.type() == QtCore.QEvent.GraphicsSceneMousePress:
             print("click")
             spf = event.scenePos()
             lpf = self._pixmap_item.mapFromScene(spf)
@@ -68,12 +65,11 @@ class ImageViewer(QtWidgets.QGraphicsView):
                 # global sp
                 sp = lpf.toPoint()
                 print(f'start- {sp}')
-                # x1,y1 = lp 
-                x=5
+                # x1,y1 = lp
+                x = 5
                 print(f'x = {x}')
 
-
-        if  event.type() == QtCore.QEvent.GraphicsSceneMouseRelease:
+        if event.type() == QtCore.QEvent.GraphicsSceneMouseRelease:
             print("release")
 
             spf = event.scenePos()
@@ -83,15 +79,14 @@ class ImageViewer(QtWidgets.QGraphicsView):
             if brf.contains(lpf):
                 # global ep
                 ep = lpf.toPoint()
-             
+
                 print(f'end- {ep}')
-                x+=10
+                x += 10
                 print(f'x = {x}')
-                crop_extent = QtCore.QRect(sp,ep)
-                crop_rect(crop_extent,self.scene)
-                # x2,y2 = lp 
-    
-       
+                # crop_extent = QtCore.QRect(sp,ep)
+                # crop_rect(crop_extent,self.scene)
+                # x2,y2 = lp
+
         def crop_rect(rect_item, scene):
             is_visible = rect_item.isVisible()
 
@@ -153,13 +148,10 @@ class ImageViewer(QtWidgets.QGraphicsView):
         #     # print(img_name, 'saved')
         #     # img = cv2.cvtColor(np.array(img), cv2.COLOR_BGR2RGB)
 
-
         # rect_item = self.scene.addRect(sp,ep)
         # qpixmap = crop_rect(rect_item, self.scene)
 
         return super().eventFilter(obj, event)
-
-
 
 
 class MainWindow(QtWidgets.QMainWindow):
@@ -170,7 +162,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.setCentralWidget(self.view)
 
         self.setMouseTracking(True)
-        
+
         self.createActions()
         self.createMenus()
 
@@ -183,7 +175,6 @@ class MainWindow(QtWidgets.QMainWindow):
                 for image_format in QtGui.QImageReader.supportedImageFormats()
             ]
         )
-        
 
         fileName, _ = QtWidgets.QFileDialog.getOpenFileName(
             self,
@@ -246,9 +237,14 @@ class MainWindow(QtWidgets.QMainWindow):
             shortcut="Ctrl+F",
             triggered=self.fitToWindow,
         )
-        self.aboutAct = QtWidgets.QAction(self.tr("&About"), self, triggered=self.about)
+        self.aboutAct = QtWidgets.QAction(
+            self.tr("&About"),
+            self,
+            triggered=self.about)
         self.aboutQtAct = QtWidgets.QAction(
-            self.tr("About &Qt"), self, triggered=QtWidgets.QApplication.aboutQt
+            self.tr("About &Qt"),
+            self,
+            triggered=QtWidgets.QApplication.aboutQt
         )
 
     def createMenus(self):
