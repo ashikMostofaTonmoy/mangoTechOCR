@@ -58,6 +58,7 @@ class ImageViewer(QtWidgets.QGraphicsView):
         if event.type() == QtCore.QEvent.GraphicsSceneMousePress:
             print("click")
             spf = event.scenePos()
+            print(event.pos().x())
             print(f"spf = {spf}")
             lpf = self._pixmap_item.mapFromScene(spf)
             print(f"lpf = {lpf}")
@@ -91,7 +92,9 @@ class ImageViewer(QtWidgets.QGraphicsView):
                 # x += 10
                 # print(f'x = {x}')
                 # crop_extent = QtCore.QRect(sp,ep)
-                # crop_rect(crop_extent,self.scene)
+                crop_extent = (10,100,200,500)
+
+                crop_rect(crop_extent,self.scene)
                 # x2,y2 = lp
 
         def crop_rect(rect_item, scene):
