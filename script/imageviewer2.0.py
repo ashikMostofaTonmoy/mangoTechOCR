@@ -3,6 +3,8 @@ from PyQt5 import QtWidgets, QtGui, QtCore
 
 
 class ImageViewer(QtWidgets.QGraphicsView):
+    # class ImageViewer(QtWidgets.QLabel):
+    # class ImageViewer(QtWidgets.QWidget):
     factor = 2.0
 
     def __init__(self, parent=None):
@@ -23,11 +25,14 @@ class ImageViewer(QtWidgets.QGraphicsView):
         self.is_snipping = False
 
         self._pixmap_item = QtWidgets.QGraphicsPixmapItem()
+        # self._pixmap_item = QtGui.QPixmap()
+
         scene.addItem(self._pixmap_item)
         scene.installEventFilter(self)
 
     def load_image(self, fileName):
         pixmap = QtGui.QPixmap(fileName)
+        # self.pixview = QtGui.QPixmap(fileName)
         if pixmap.isNull():
             return False
         self._pixmap_item.setPixmap(pixmap)
@@ -97,7 +102,7 @@ class ImageViewer(QtWidgets.QGraphicsView):
         # t added line after this
         # for mouse movement tracking
 
-        if event.type() == QtCore.QEvent.GraphicsSceneMousePress:
+        if event.type() == QtCore.QEvent.GraphicsSceneMouseMove:
             print("moved")
             # spf = event.scenePos()
             # lpf = self._pixmap_item.mapFromScene(spf)
@@ -121,7 +126,7 @@ class ImageViewer(QtWidgets.QGraphicsView):
             brf = self._pixmap_item.boundingRect()
 
             rect = QtCore.QRect(self.begin, self.destination)
-            painter = QtGui.QPainter(pixmap)
+            painter = QtGui.QPainter(self._pixmap_item)
             painter.drawRect(rect.normalized())
 
             if brf.contains(lpf):

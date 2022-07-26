@@ -14,7 +14,6 @@ class MyApp(QWidget):
         self.setLayout(layout)
 
         self.pix = QPixmap(self.rect().size())
-
         self.pix.fill(Qt.white)
 
         self.begin, self.destination = QPoint(), QPoint()
