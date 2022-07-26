@@ -58,31 +58,38 @@ class ImageViewer(QtWidgets.QGraphicsView):
         if event.type() == QtCore.QEvent.GraphicsSceneMousePress:
             print("click")
             spf = event.scenePos()
+            print(f"spf = {spf}")
             lpf = self._pixmap_item.mapFromScene(spf)
+            print(f"lpf = {lpf}")
             brf = self._pixmap_item.boundingRect()
+            print(f"brf = {brf}")
+
             # print(brf)
             if brf.contains(lpf):
                 # global sp
                 sp = lpf.toPoint()
-                print(f'start- {sp}')
+                print(f'start =sp =  {sp}')
                 # x1,y1 = lp
-                x = 5
-                print(f'x = {x}')
+                # x = 5
+                # print(f'x = {x}')
 
         if event.type() == QtCore.QEvent.GraphicsSceneMouseRelease:
             print("release")
 
             spf = event.scenePos()
+            print(f"spf = {spf}")
             lpf = self._pixmap_item.mapFromScene(spf)
+            print(f"lpf = {lpf}")
             brf = self._pixmap_item.boundingRect()
+            print(f"brf = {brf}")
 
             if brf.contains(lpf):
                 # global ep
                 ep = lpf.toPoint()
 
                 print(f'end- {ep}')
-                x += 10
-                print(f'x = {x}')
+                # x += 10
+                # print(f'x = {x}')
                 # crop_extent = QtCore.QRect(sp,ep)
                 # crop_rect(crop_extent,self.scene)
                 # x2,y2 = lp

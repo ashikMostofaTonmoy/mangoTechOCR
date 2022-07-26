@@ -1,0 +1,37 @@
+qt.gui.icc: Unsupported ICC profile class 70727472
+
+click
+spf = PyQt5.QtCore.QPointF(1004.0, 3482.0)
+lpf = PyQt5.QtCore.QPointF(1004.0, 3482.0)
+brf = PyQt5.QtCore.QRectF(0.0, 0.0, 6524.0, 9092.0)
+start =sp =  PyQt5.QtCore.QPoint(1004, 3482)
+
+release
+spf = PyQt5.QtCore.QPointF(1552.0, 4214.0)
+lpf = PyQt5.QtCore.QPointF(1552.0, 4214.0)
+brf = PyQt5.QtCore.QRectF(0.0, 0.0, 6524.0, 9092.0)
+end- PyQt5.QtCore.QPoint(1552, 4214)
+
+click
+spf = PyQt5.QtCore.QPointF(1000.0, 3484.0)
+lpf = PyQt5.QtCore.QPointF(1000.0, 3484.0)
+brf = PyQt5.QtCore.QRectF(0.0, 0.0, 6524.0, 9092.0)
+start =sp =  PyQt5.QtCore.QPoint(1000, 3484)
+
+release
+spf = PyQt5.QtCore.QPointF(1548.0, 4212.0)
+lpf = PyQt5.QtCore.QPointF(1548.0, 4212.0)
+brf = PyQt5.QtCore.QRectF(0.0, 0.0, 6524.0, 9092.0)
+end- PyQt5.QtCore.QPoint(1548, 4212)
+
+click
+spf = PyQt5.QtCore.QPointF(1004.0, 3480.0)
+lpf = PyQt5.QtCore.QPointF(1004.0, 3480.0)
+brf = PyQt5.QtCore.QRectF(0.0, 0.0, 6524.0, 9092.0)
+start =sp =  PyQt5.QtCore.QPoint(1004, 3480)
+
+release
+spf = PyQt5.QtCore.QPointF(1552.0, 4208.0)
+lpf = PyQt5.QtCore.QPointF(1552.0, 4208.0)
+brf = PyQt5.QtCore.QRectF(0.0, 0.0, 6524.0, 9092.0)
+end- PyQt5.QtCore.QPoint(1552, 4208)

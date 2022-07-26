@@ -1,0 +1,209 @@
+Point 1
+self.begin = PyQt5.QtCore.QPoint(252, 121)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(253, 121)
+after update: self.destination = PyQt5.QtCore.QPoint(253, 121)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(254, 121)
+after update: self.destination = PyQt5.QtCore.QPoint(254, 121)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(254, 122)
+after update: self.destination = PyQt5.QtCore.QPoint(254, 122)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(255, 122)
+after update: self.destination = PyQt5.QtCore.QPoint(255, 122)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(256, 122)
+after update: self.destination = PyQt5.QtCore.QPoint(256, 122)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(257, 123)
+after update: self.destination = PyQt5.QtCore.QPoint(257, 123)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(257, 124)
+after update: self.destination = PyQt5.QtCore.QPoint(257, 124)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(258, 124)
+after update: self.destination = PyQt5.QtCore.QPoint(258, 124)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(259, 124)
+after update: self.destination = PyQt5.QtCore.QPoint(259, 124)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(259, 125)
+after update: self.destination = PyQt5.QtCore.QPoint(259, 125)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(260, 125)
+after update: self.destination = PyQt5.QtCore.QPoint(260, 125)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(261, 126)
+after update: self.destination = PyQt5.QtCore.QPoint(261, 126)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(262, 126)
+after update: self.destination = PyQt5.QtCore.QPoint(262, 126)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(262, 127)
+after update: self.destination = PyQt5.QtCore.QPoint(262, 127)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(263, 127)
+after update: self.destination = PyQt5.QtCore.QPoint(263, 127)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(264, 128)
+after update: self.destination = PyQt5.QtCore.QPoint(264, 128)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(265, 129)
+after update: self.destination = PyQt5.QtCore.QPoint(265, 129)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(265, 130)
+after update: self.destination = PyQt5.QtCore.QPoint(265, 130)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(266, 130)
+after update: self.destination = PyQt5.QtCore.QPoint(266, 130)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(267, 131)
+after update: self.destination = PyQt5.QtCore.QPoint(267, 131)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(268, 131)
+after update: self.destination = PyQt5.QtCore.QPoint(268, 131)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(269, 133)
+after update: self.destination = PyQt5.QtCore.QPoint(269, 133)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(270, 134)
+after update: self.destination = PyQt5.QtCore.QPoint(270, 134)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(271, 134)
+after update: self.destination = PyQt5.QtCore.QPoint(271, 134)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(271, 135)
+after update: self.destination = PyQt5.QtCore.QPoint(271, 135)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(272, 136)
+after update: self.destination = PyQt5.QtCore.QPoint(272, 136)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(273, 137)
+after update: self.destination = PyQt5.QtCore.QPoint(273, 137)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(274, 138)
+after update: self.destination = PyQt5.QtCore.QPoint(274, 138)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(276, 139)
+after update: self.destination = PyQt5.QtCore.QPoint(276, 139)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(276, 140)
+after update: self.destination = PyQt5.QtCore.QPoint(276, 140)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(277, 140)
+after update: self.destination = PyQt5.QtCore.QPoint(277, 140)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(277, 141)
+after update: self.destination = PyQt5.QtCore.QPoint(277, 141)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(278, 142)
+after update: self.destination = PyQt5.QtCore.QPoint(278, 142)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(279, 142)
+after update: self.destination = PyQt5.QtCore.QPoint(279, 142)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(281, 145)
+after update: self.destination = PyQt5.QtCore.QPoint(281, 145)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(282, 146)
+after update: self.destination = PyQt5.QtCore.QPoint(282, 146)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(283, 146)
+after update: self.destination = PyQt5.QtCore.QPoint(283, 146)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(284, 147)
+after update: self.destination = PyQt5.QtCore.QPoint(284, 147)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(285, 147)
+after update: self.destination = PyQt5.QtCore.QPoint(285, 147)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(285, 148)
+after update: self.destination = PyQt5.QtCore.QPoint(285, 148)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(285, 149)
+after update: self.destination = PyQt5.QtCore.QPoint(285, 149)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(287, 150)
+after update: self.destination = PyQt5.QtCore.QPoint(287, 150)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(288, 150)
+after update: self.destination = PyQt5.QtCore.QPoint(288, 150)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(289, 151)
+after update: self.destination = PyQt5.QtCore.QPoint(289, 151)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(290, 152)
+after update: self.destination = PyQt5.QtCore.QPoint(290, 152)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(290, 153)
+after update: self.destination = PyQt5.QtCore.QPoint(290, 153)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(293, 154)
+after update: self.destination = PyQt5.QtCore.QPoint(293, 154)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(293, 155)
+after update: self.destination = PyQt5.QtCore.QPoint(293, 155)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(294, 155)
+after update: self.destination = PyQt5.QtCore.QPoint(294, 155)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(294, 156)
+after update: self.destination = PyQt5.QtCore.QPoint(294, 156)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(295, 157)
+after update: self.destination = PyQt5.QtCore.QPoint(295, 157)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(295, 158)
+after update: self.destination = PyQt5.QtCore.QPoint(295, 158)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(297, 159)
+after update: self.destination = PyQt5.QtCore.QPoint(297, 159)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(298, 159)
+after update: self.destination = PyQt5.QtCore.QPoint(298, 159)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(298, 160)
+after update: self.destination = PyQt5.QtCore.QPoint(298, 160)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(299, 160)
+after update: self.destination = PyQt5.QtCore.QPoint(299, 160)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(299, 161)
+after update: self.destination = PyQt5.QtCore.QPoint(299, 161)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(300, 162)
+after update: self.destination = PyQt5.QtCore.QPoint(300, 162)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(301, 162)
+after update: self.destination = PyQt5.QtCore.QPoint(301, 162)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(301, 163)
+after update: self.destination = PyQt5.QtCore.QPoint(301, 163)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(302, 163)
+after update: self.destination = PyQt5.QtCore.QPoint(302, 163)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(302, 164)
+after update: self.destination = PyQt5.QtCore.QPoint(302, 164)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(303, 164)
+after update: self.destination = PyQt5.QtCore.QPoint(303, 164)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(303, 165)
+after update: self.destination = PyQt5.QtCore.QPoint(303, 165)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(304, 165)
+after update: self.destination = PyQt5.QtCore.QPoint(304, 165)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(304, 166)
+after update: self.destination = PyQt5.QtCore.QPoint(304, 166)
+Point 2
+self.destination = PyQt5.QtCore.QPoint(305, 166)
+after update: self.destination = PyQt5.QtCore.QPoint(305, 166)
+Point 3
+rect = PyQt5.QtCore.QRect(252, 121, 54, 46)
+rect.normalized() = PyQt5.QtCore.QRect(252, 121, 54, 46)
+after update: self.begin = PyQt5.QtCore.QPoint()
+self.destination = PyQt5.QtCore.QPoint()
+Closing Window...
